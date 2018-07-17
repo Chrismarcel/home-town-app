@@ -1,0 +1,26 @@
+{
+  "name": "home-town-app",
+  "version": "1.0.0",
+  "description": "An Udacity Nanodegree project that displays news content specific to a fictional community/location.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chrismarcel/home-town-app.git"
+  },
+  "keywords": [
+    "Nanodegree",
+    "Udacity",
+    "Home",
+    "Town",
+    "App"
+  ],
+  "author": "Chrismarcel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chrismarcel/home-town-app/issues"
+  },
+  "homepage": "https://github.com/Chrismarcel/home-town-app#readme"
+}
