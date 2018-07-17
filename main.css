@@ -131,6 +131,7 @@ main {
   min-width: 100%;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 5px;
 }
 
 /*
@@ -177,7 +178,7 @@ main {
 .top-news {
   float: right;
   min-width: 100%;
-  height: 300px;
+  height: auto;
   border-bottom: 1px solid #E0E0E0;
   padding: 1em;
 }
@@ -410,5 +411,14 @@ footer a {
   .scores {
     margin-right: 10px;
     margin-left: 15px;
+  }
+
+  .snippet {
+    display: inline-block;
+    width: calc((100% - 20px)/3);
+  }
+
+  .snippet:not(:last-of-type) {
+    margin-right: 10px;
   }
 }
