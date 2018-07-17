@@ -61,7 +61,7 @@ ul {
 
 .header__logo {
   height: 50px;
-  margin-right: 1em;
+  margin-right: .2em;
   vertical-align: top;
 }
 
@@ -69,11 +69,17 @@ ul {
   font-family: 'Leckerli One', sans-serif;
   font-weight: 300;
   font-size: 2em;
-  margin: 0.5em 0.25em;
+  margin: 0.5em;
   display: inline-block;
-  color: #212121;
+  color: #715e7d;
 }
 
+.header__icon {
+  float: right;
+  font-size: 35px;
+  margin-top: 6px;
+  color: #715e7d;
+}
 
 /*
  *
@@ -181,6 +187,7 @@ main {
   border-bottom: 1px solid #E0E0E0;
   line-height: 24px;
   font-size: 16px;
+  padding-bottom: 10px;
 }
 
 .top-news__item {
@@ -374,12 +381,21 @@ footer a {
 
 @media screen and (min-width: 720px) {
 
+  .header__inner {
+    text-align: center;
+  }
+
   .header__logo {
     height: 72px;
   }
 
   .header__title {
     font-size: 3em;
+    margin: 0.5em 0.25em;
+  }
+
+  .header__icon {
+    display: none;
   }
 
   main {
