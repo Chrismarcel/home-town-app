@@ -51,6 +51,7 @@ ul {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
   min-height: 56px;
   transition: min-height 0.3s;
+  z-index: 10000;
 }
 
 .header__inner {
@@ -88,6 +89,15 @@ ul {
  */
 
 .nav {
+  position: absolute;
+  top: 0;
+} 
+
+.content {
+  position: relative;
+}
+
+.nav {
   min-width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -117,6 +127,15 @@ ul {
 .nav a:hover {
   text-decoration: underline;
   color: #212121;
+}
+
+.nav__open {
+  z-index: 1000;
+  position: absolute;
+  top: -1px;
+  background: #FFFFFF;
+  border-top: 1px solid #efefef;
+  transition: all .2s ease;
 }
 
 
@@ -381,6 +400,10 @@ footer a {
 }
 
 @media screen and (min-width: 801px) {
+  .nav {
+    position: relative;
+    top: 0;
+  }
 
   .header__inner {
     text-align: center;
@@ -426,6 +449,7 @@ footer a {
 }
 
 @media screen and (min-width: 801px) and (max-width: 883px) {
+
   main {
     width: 90%
   }
