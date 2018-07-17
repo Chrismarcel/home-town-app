@@ -334,7 +334,7 @@ main {
 
 .snippet {
   clear: both;
-  margin: 24px 0;
+  margin: 15px 0;
 }
 
 .snippet__thumbnail {
@@ -416,7 +416,7 @@ footer a {
   .snippet {
     display: inline-block;
     width: calc((100% - 15px)/3);
-    max-height: 140px;
+    max-height: 135px;
     overflow: hidden;
   }
 
