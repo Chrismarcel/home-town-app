@@ -380,7 +380,7 @@ footer a {
   color: #333;
 }
 
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 801px) {
 
   .header__inner {
     text-align: center;
@@ -400,7 +400,7 @@ footer a {
   }
 
   main {
-    width: 80%;
+    width: 85%;
     min-width: 0;
   }
 
@@ -415,10 +415,35 @@ footer a {
 
   .snippet {
     display: inline-block;
-    width: calc((100% - 20px)/3);
+    width: calc((100% - 15px)/3);
+    max-height: 140px;
+    overflow: hidden;
   }
 
-  .snippet:not(:last-of-type) {
+  .snippet:not(:nth-type(3n)) {
+    margin-right: 10px;
+  }
+}
+
+@media screen and (min-width: 801px) and (max-width: 883px) {
+  main {
+    width: 90%
+  }
+
+  .scores, .weather {
+    min-width: 50%;
+  }
+
+  .scores {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .snippet {
+    width: calc((100% - 15px)/2);
+  }
+
+  .snippet:nth-child(odd) {
     margin-right: 10px;
   }
 }
