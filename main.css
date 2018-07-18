@@ -182,7 +182,7 @@ main {
   background-color: rgba(0, 0, 0, 0.7);
   position: absolute;
   bottom: 0;
-  height: 45%;
+  height: auto;
   width: 100%;
   color: #fff;
   padding: 1em;
@@ -412,10 +412,6 @@ footer a {
     min-width: 50%;
   }
 
-  .hero.article {
-    height: 55%;
-  }
-
   .news.top-news {
     min-width: 50%;
     width: 50%;
@@ -486,10 +482,6 @@ footer a {
 }
 
 @media screen and (min-width: 867px) {
-
-  .hero.article {
-    height: 45%;
-  }
 
   main {
     width: 80%
