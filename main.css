@@ -63,6 +63,7 @@ ul {
 .header__logo {
   height: 50px;
   margin-right: .2em;
+  margin-top: .3em;
   vertical-align: top;
 }
 
@@ -70,7 +71,7 @@ ul {
   font-family: 'Leckerli One', sans-serif;
   font-weight: 300;
   font-size: 2em;
-  margin: 0.2em 0.7em;
+  margin: 0.5em 0.7em;
   display: inline-block;
   color: #715e7d;
 }
