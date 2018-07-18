@@ -7,7 +7,7 @@ body, html {
 
 body {
   font-family: Lato;
-  font-size: 12px;
+  font-size: 16px;
   color: #424242;
 }
 
@@ -70,7 +70,7 @@ ul {
   font-family: 'Leckerli One', sans-serif;
   font-weight: 300;
   font-size: 2em;
-  margin: 0.5em;
+  margin: 0.2em 0.7em;
   display: inline-block;
   color: #715e7d;
 }
@@ -181,7 +181,7 @@ main {
   background-color: rgba(0, 0, 0, 0.7);
   position: absolute;
   bottom: 0;
-  height: 40%;
+  height: 45%;
   width: 100%;
   color: #fff;
   padding: 1em;
@@ -206,7 +206,7 @@ main {
   font-weight: 300;
   border-bottom: 1px solid #E0E0E0;
   line-height: 24px;
-  font-size: 16px;
+  font-size: 20px;
   padding-bottom: 10px;
 }
 
