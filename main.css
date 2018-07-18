@@ -7,7 +7,7 @@ body, html {
 
 body {
   font-family: Lato;
-  font-size: 16px;
+  font-size: 12px;
   color: #424242;
 }
 
@@ -245,6 +245,8 @@ main {
   min-width: 100%;
   float: left;
   padding-top: 1em;
+  width: 100%;
+  overflow-x: scroll;
 }
 
 .scores__table {
@@ -363,6 +365,7 @@ main {
 }
 
 .snippet__title {
+  font-size: 16px;
   font-weight: 600;
 }
 
@@ -376,7 +379,11 @@ main {
   text-decoration: underline;
 }
 
-
+.snippet > p {
+  margin-top: 5px;
+  max-height: 60px;
+  overflow: hidden;
+}
 /*
  *
  * Footer
@@ -469,5 +476,10 @@ footer a {
 
   .snippet:nth-child(odd) {
     margin-right: 10px;
+  }
+
+  .snippet > p {
+    max-height: 120px;
+    overflow: hidden;
   }
 }
