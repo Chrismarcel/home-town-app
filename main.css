@@ -247,7 +247,7 @@ main {
   float: left;
   padding-top: 1em;
   width: 100%;
-  overflow-x: scroll;
+  overflow-x: auto;
 }
 
 .scores__table {
@@ -408,6 +408,10 @@ footer a {
 }
 
 @media screen and (min-width: 801px) {
+  body {
+    font-size: 15px;
+  }
+
   .nav {
     position: relative;
     top: 0;
@@ -431,17 +435,18 @@ footer a {
   }
 
   main {
-    width: 85%;
+    width: 80%;
     min-width: 0;
   }
 
   .scores, .weather {
-    min-width: 45%;
+    min-width: 48%;
   }
 
   .scores {
     margin-right: 10px;
     margin-left: 15px;
+    width: 49%;
   }
 
   .snippet {
@@ -454,12 +459,17 @@ footer a {
   .snippet:not(:nth-type(3n)) {
     margin-right: 10px;
   }
+  
+  .snippet > p {
+    max-height: 120px;
+    overflow: hidden;
+  }
 }
 
-@media screen and (min-width: 801px) and (max-width: 883px) {
+@media screen and (min-width: 801px) and (max-width: 1040px) {
 
   main {
-    width: 90%
+    width: 95%
   }
 
   .scores, .weather {
@@ -477,10 +487,5 @@ footer a {
 
   .snippet:nth-child(odd) {
     margin-right: 10px;
-  }
-
-  .snippet > p {
-    max-height: 120px;
-    overflow: hidden;
   }
 }
